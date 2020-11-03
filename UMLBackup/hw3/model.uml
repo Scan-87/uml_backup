@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_RHdkQP4tEeqwvoSqXpOf0g" name="NewModel">
+  <packagedElement xmi:type="uml:Class" xmi:id="_EKvF8P5rEeqn4oujG16c8A" name="User" visibility="public">
+    <ownedAttribute xmi:id="_TGGnIP5tEeqn4oujG16c8A" name="Busy"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_eYbIkP5wEeqn4oujG16c8A" memberEnd="_eYbIkf5wEeqn4oujG16c8A _eYbIlP5wEeqn4oujG16c8A" navigableOwnedEnd="_eYbIkf5wEeqn4oujG16c8A _eYbIlP5wEeqn4oujG16c8A">
+    <ownedEnd xmi:id="_eYbIkf5wEeqn4oujG16c8A" name="admins" type="_HC60AP5rEeqn4oujG16c8A" association="_eYbIkP5wEeqn4oujG16c8A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eYbIkv5wEeqn4oujG16c8A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eYbIk_5wEeqn4oujG16c8A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_eYbIlP5wEeqn4oujG16c8A" name="dataBases" type="_QJ_tQP5rEeqn4oujG16c8A" association="_eYbIkP5wEeqn4oujG16c8A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eYbIlf5wEeqn4oujG16c8A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eYbIlv5wEeqn4oujG16c8A" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sBqlcP5wEeqn4oujG16c8A" memberEnd="_sBqlcf5wEeqn4oujG16c8A _sBqldP5wEeqn4oujG16c8A" navigableOwnedEnd="_sBqlcf5wEeqn4oujG16c8A _sBqldP5wEeqn4oujG16c8A">
+    <ownedEnd xmi:id="_sBqlcf5wEeqn4oujG16c8A" name="users" type="_OYk2IP5vEeqn4oujG16c8A" association="_sBqlcP5wEeqn4oujG16c8A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sBqlcv5wEeqn4oujG16c8A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sBqlc_5wEeqn4oujG16c8A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_sBqldP5wEeqn4oujG16c8A" name="documents" type="_NdcncP5rEeqn4oujG16c8A" association="_sBqlcP5wEeqn4oujG16c8A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sBqldf5wEeqn4oujG16c8A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sBqldv5wEeqn4oujG16c8A" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_u9hSkP5wEeqn4oujG16c8A" memberEnd="_u9hSkf5wEeqn4oujG16c8A _u9hSlP5wEeqn4oujG16c8A" navigableOwnedEnd="_u9hSkf5wEeqn4oujG16c8A _u9hSlP5wEeqn4oujG16c8A">
+    <ownedEnd xmi:id="_u9hSkf5wEeqn4oujG16c8A" name="managers" type="_KnNaIP5rEeqn4oujG16c8A" association="_u9hSkP5wEeqn4oujG16c8A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_u9hSkv5wEeqn4oujG16c8A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_u9hSk_5wEeqn4oujG16c8A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_u9hSlP5wEeqn4oujG16c8A" name="documents" type="_NdcncP5rEeqn4oujG16c8A" association="_u9hSkP5wEeqn4oujG16c8A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_u9hSlf5wEeqn4oujG16c8A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_u9hSlv5wEeqn4oujG16c8A" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_w3GDUP5wEeqn4oujG16c8A" memberEnd="_w3GDUf5wEeqn4oujG16c8A _w3GDVP5wEeqn4oujG16c8A" navigableOwnedEnd="_w3GDUf5wEeqn4oujG16c8A _w3GDVP5wEeqn4oujG16c8A">
+    <ownedEnd xmi:id="_w3GDUf5wEeqn4oujG16c8A" name="documents" type="_NdcncP5rEeqn4oujG16c8A" association="_w3GDUP5wEeqn4oujG16c8A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w3GDUv5wEeqn4oujG16c8A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w3GDU_5wEeqn4oujG16c8A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_w3GDVP5wEeqn4oujG16c8A" name="dataBases" type="_QJ_tQP5rEeqn4oujG16c8A" association="_w3GDUP5wEeqn4oujG16c8A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w3GDVf5wEeqn4oujG16c8A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w3GDVv5wEeqn4oujG16c8A" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ymoHQP5wEeqn4oujG16c8A" memberEnd="_ymoHQf5wEeqn4oujG16c8A _ymoHRP5wEeqn4oujG16c8A" navigableOwnedEnd="_ymoHQf5wEeqn4oujG16c8A _ymoHRP5wEeqn4oujG16c8A">
+    <ownedEnd xmi:id="_ymoHQf5wEeqn4oujG16c8A" name="managers" type="_KnNaIP5rEeqn4oujG16c8A" association="_ymoHQP5wEeqn4oujG16c8A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ymoHQv5wEeqn4oujG16c8A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ymoHQ_5wEeqn4oujG16c8A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_ymoHRP5wEeqn4oujG16c8A" name="dataBases" type="_QJ_tQP5rEeqn4oujG16c8A" association="_ymoHQP5wEeqn4oujG16c8A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ymoHRf5wEeqn4oujG16c8A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ymoHRv5wEeqn4oujG16c8A" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zTDvcP5wEeqn4oujG16c8A" memberEnd="_zTDvcf5wEeqn4oujG16c8A _zTDvdP5wEeqn4oujG16c8A" navigableOwnedEnd="_zTDvcf5wEeqn4oujG16c8A _zTDvdP5wEeqn4oujG16c8A">
+    <ownedEnd xmi:id="_zTDvcf5wEeqn4oujG16c8A" name="users" type="_OYk2IP5vEeqn4oujG16c8A" association="_zTDvcP5wEeqn4oujG16c8A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zTDvcv5wEeqn4oujG16c8A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zTDvc_5wEeqn4oujG16c8A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_zTDvdP5wEeqn4oujG16c8A" name="dataBases" type="_QJ_tQP5rEeqn4oujG16c8A" association="_zTDvcP5wEeqn4oujG16c8A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zTDvdf5wEeqn4oujG16c8A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zTDvdv5wEeqn4oujG16c8A" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_3jy7gAO4EeueIrrL7NBAIQ" name="Database">
+    <packagedElement xmi:type="uml:Class" xmi:id="_QJ_tQP5rEeqn4oujG16c8A" name="&quot;entity&quot;DataBase" visibility="public">
+      <ownedOperation xmi:id="_fDF2MP5wEeqn4oujG16c8A" name="Add Entry"/>
+      <ownedOperation xmi:id="_hE8ZMP5wEeqn4oujG16c8A" name="Remove Entry"/>
+      <ownedOperation xmi:id="_iysUcP5wEeqn4oujG16c8A" name="Select Data"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_GhC98AO5EeueIrrL7NBAIQ" name="Interface">
+    <packagedElement xmi:type="uml:Class" xmi:id="_HC60AP5rEeqn4oujG16c8A" name="&quot;entity&quot;Admin" visibility="public">
+      <ownedAttribute xmi:id="_3ZG0QP5vEeqn4oujG16c8A" name="Logged In" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3ZG0Qf5vEeqn4oujG16c8A"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3ZG0Qv5vEeqn4oujG16c8A" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_ewHsUP5vEeqn4oujG16c8A" name="Create Account"/>
+      <ownedOperation xmi:id="_hCTKUP5vEeqn4oujG16c8A" name="Remove Account"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_KnNaIP5rEeqn4oujG16c8A" name="&quot;entity&quot;Manager" visibility="public">
+      <ownedAttribute xmi:id="__NNpwP5vEeqn4oujG16c8A" name="Logged In" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__NNpwf5vEeqn4oujG16c8A"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__NNpwv5vEeqn4oujG16c8A" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_mIC8IP5vEeqn4oujG16c8A" name="Create List"/>
+      <ownedOperation xmi:id="_p-WfUP5vEeqn4oujG16c8A" name="Task Management"/>
+      <ownedOperation xmi:id="_seHGUP5vEeqn4oujG16c8A" name="Check Documents"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_OYk2IP5vEeqn4oujG16c8A" name="&quot;entity&quot;User" visibility="public">
+      <ownedAttribute xmi:id="_UmbfgP5vEeqn4oujG16c8A" name="IsBusy" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Umbfgf5vEeqn4oujG16c8A"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Umbfgv5vEeqn4oujG16c8A" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_A3YFgP5wEeqn4oujG16c8A" name="Logged In" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_A3YFgf5wEeqn4oujG16c8A"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_A3YFgv5wEeqn4oujG16c8A" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_PsUV8P5vEeqn4oujG16c8A" name="Create Document"/>
+      <ownedOperation xmi:id="_S1fGUP5vEeqn4oujG16c8A" name="Edit Document"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_NX4S4AO5EeueIrrL7NBAIQ" name="Document">
+    <packagedElement xmi:type="uml:Class" xmi:id="_NdcncP5rEeqn4oujG16c8A" name="&quot;boundary&quot;Document" visibility="public">
+      <ownedAttribute xmi:id="_LrrVkP5wEeqn4oujG16c8A" name="Is Done" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LrrVkf5wEeqn4oujG16c8A"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LrrVkv5wEeqn4oujG16c8A" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_IMwXoP5wEeqn4oujG16c8A" name="Edit"/>
+      <ownedOperation xmi:id="_s4I6cP5wEeqn4oujG16c8A" name="Check"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Sr7mcAO5EeueIrrL7NBAIQ" name="Interface">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_l0X28AO5EeueIrrL7NBAIQ" client="_Sr7mcAO5EeueIrrL7NBAIQ" supplier="_VZFwQAO5EeueIrrL7NBAIQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_mxUAUAO5EeueIrrL7NBAIQ" client="_Sr7mcAO5EeueIrrL7NBAIQ" supplier="_bvl_UAO5EeueIrrL7NBAIQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_bvl_UAO5EeueIrrL7NBAIQ" name="Document"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_VZFwQAO5EeueIrrL7NBAIQ" name="Database">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_jqYroAO5EeueIrrL7NBAIQ" client="_VZFwQAO5EeueIrrL7NBAIQ" supplier="_bvl_UAO5EeueIrrL7NBAIQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_nUuasAkwEeumE5SpU3P27Q" name="«Activity»Совместное редактирование документов" node="_J6YVMAkzEeuAkKicpJLxXA _UL0IwAkzEeuAkKicpJLxXA _bTDRMAkzEeuAkKicpJLxXA _7CrrsAkzEeuAkKicpJLxXA _yYPOoAk0EeuAkKicpJLxXA _TM2UMAk1EeuAkKicpJLxXA _djD6EAk1EeuAkKicpJLxXA _tEXEwAk1EeuAkKicpJLxXA _vx0JgAk1EeuAkKicpJLxXA _8hgvQAk1EeuAkKicpJLxXA _BCJo4Ak2EeuAkKicpJLxXA _s8-tkAk5EeuAkKicpJLxXA _7j1CMAk5EeuAkKicpJLxXA _R-SdEAk6EeuAkKicpJLxXA _b5L_8Ak6EeuAkKicpJLxXA _zrdiUAk6EeuAkKicpJLxXA" group="_ktxKEAkxEeumE5SpU3P27Q _IHHV4Ak1EeuAkKicpJLxXA" partition="_ktxKEAkxEeumE5SpU3P27Q _IHHV4Ak1EeuAkKicpJLxXA">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Hqm1gAk0EeuAkKicpJLxXA" name="да" target="_UL0IwAkzEeuAkKicpJLxXA" source="_bTDRMAkzEeuAkKicpJLxXA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_Hqm1gQk0EeuAkKicpJLxXA" name="В БД есть файл с таким-же именем?_To_Ввод названия документа_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_Hqm1ggk0EeuAkKicpJLxXA" name="В БД есть файл с таким-же именем?_To_Ввод названия документа_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_-7AWMAk1EeuAkKicpJLxXA" target="_tEXEwAk1EeuAkKicpJLxXA" source="_djD6EAk1EeuAkKicpJLxXA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_-7AWMQk1EeuAkKicpJLxXA" name="Ввод названия документа_To_Открытие документа из базы данных_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_-7AWMgk1EeuAkKicpJLxXA" name="Ввод названия документа_To_Открытие документа из базы данных_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="__ZPxYAk1EeuAkKicpJLxXA" target="_vx0JgAk1EeuAkKicpJLxXA" source="_tEXEwAk1EeuAkKicpJLxXA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="__ZPxYQk1EeuAkKicpJLxXA" name="Открытие документа из базы данных_To_запуск среды редактирования документа _guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="__ZPxYgk1EeuAkKicpJLxXA" name="Открытие документа из базы данных_To_запуск среды редактирования документа _weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_6B5x4Ak4EeuAkKicpJLxXA" target="_bTDRMAkzEeuAkKicpJLxXA" source="_UL0IwAkzEeuAkKicpJLxXA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_6B5x4Qk4EeuAkKicpJLxXA" name="Ввод названия документа_To_В БД есть файл с таким-же именем?_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_6B5x4gk4EeuAkKicpJLxXA" name="Ввод названия документа_To_В БД есть файл с таким-же именем?_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_zcUIgAk5EeuAkKicpJLxXA" target="_s8-tkAk5EeuAkKicpJLxXA" source="_vx0JgAk1EeuAkKicpJLxXA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_zcUIgQk5EeuAkKicpJLxXA" name="запуск среды редактирования документа _To_Редактирование завершено?_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_zcUIggk5EeuAkKicpJLxXA" name="запуск среды редактирования документа _To_Редактирование завершено?_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DS_GQAk6EeuAkKicpJLxXA" target="_7j1CMAk5EeuAkKicpJLxXA" source="_s8-tkAk5EeuAkKicpJLxXA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_DS_GQQk6EeuAkKicpJLxXA" name="Редактирование завершено?_To_Document.IsDone = true_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_DS_GQgk6EeuAkKicpJLxXA" name="Редактирование завершено?_To_Document.IsDone = true_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_FDbJIAk6EeuAkKicpJLxXA" target="_b5L_8Ak6EeuAkKicpJLxXA" source="_s8-tkAk5EeuAkKicpJLxXA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_FDbJIQk6EeuAkKicpJLxXA" name="Редактирование завершено?_To_сохранение результата в бд_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_FDbJIgk6EeuAkKicpJLxXA" name="Редактирование завершено?_To_сохранение результата в бд_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_hqsEgAk6EeuAkKicpJLxXA" target="_8hgvQAk1EeuAkKicpJLxXA" source="_b5L_8Ak6EeuAkKicpJLxXA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_hqsEgQk6EeuAkKicpJLxXA" name="Merge1_To_сохранение результата в бд_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_hqsEggk6EeuAkKicpJLxXA" name="Merge1_To_сохранение результата в бд_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_qs4dwAk6EeuAkKicpJLxXA" name="yes" target="_R-SdEAk6EeuAkKicpJLxXA" source="_bTDRMAkzEeuAkKicpJLxXA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_qs4dwQk6EeuAkKicpJLxXA" name="В БД есть файл с таким-же именем?_To_DataStore1_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_qs4dwgk6EeuAkKicpJLxXA" name="В БД есть файл с таким-же именем?_To_DataStore1_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_u0M4cAk6EeuAkKicpJLxXA" target="_7CrrsAkzEeuAkKicpJLxXA" source="_R-SdEAk6EeuAkKicpJLxXA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_u0M4cQk6EeuAkKicpJLxXA" name="DataStore1_To_создание файла и занесение его в БД_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_u0M4cgk6EeuAkKicpJLxXA" name="DataStore1_To_создание файла и занесение его в БД_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1ASnQAk6EeuAkKicpJLxXA" target="_zrdiUAk6EeuAkKicpJLxXA" source="_7j1CMAk5EeuAkKicpJLxXA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_1ATOUAk6EeuAkKicpJLxXA" name="Document.IsDone = true_To_DataStore2_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_1ATOUQk6EeuAkKicpJLxXA" name="Document.IsDone = true_To_DataStore2_weight"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1o11AAk6EeuAkKicpJLxXA" target="_b5L_8Ak6EeuAkKicpJLxXA" source="_zrdiUAk6EeuAkKicpJLxXA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_1o11AQk6EeuAkKicpJLxXA" name="DataStore2_To_Merge1_guard" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_1o11Agk6EeuAkKicpJLxXA" name="DataStore2_To_Merge1_weight"/>
+    </edge>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_ktxKEAkxEeumE5SpU3P27Q" name="Create Document" node="_J6YVMAkzEeuAkKicpJLxXA _bTDRMAkzEeuAkKicpJLxXA _UL0IwAkzEeuAkKicpJLxXA _7CrrsAkzEeuAkKicpJLxXA _yYPOoAk0EeuAkKicpJLxXA _R-SdEAk6EeuAkKicpJLxXA"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_IHHV4Ak1EeuAkKicpJLxXA" name="Edit Document" node="_TM2UMAk1EeuAkKicpJLxXA _djD6EAk1EeuAkKicpJLxXA _tEXEwAk1EeuAkKicpJLxXA _vx0JgAk1EeuAkKicpJLxXA _8hgvQAk1EeuAkKicpJLxXA _BCJo4Ak2EeuAkKicpJLxXA _s8-tkAk5EeuAkKicpJLxXA _7j1CMAk5EeuAkKicpJLxXA _b5L_8Ak6EeuAkKicpJLxXA _zrdiUAk6EeuAkKicpJLxXA"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_J6YVMAkzEeuAkKicpJLxXA" name="начало" inPartition="_ktxKEAkxEeumE5SpU3P27Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_UL0IwAkzEeuAkKicpJLxXA" name="Ввод названия документа" incoming="_Hqm1gAk0EeuAkKicpJLxXA" outgoing="_6B5x4Ak4EeuAkKicpJLxXA" inPartition="_ktxKEAkxEeumE5SpU3P27Q">
+      <body>// TODO body of OpaqueAction1</body>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_bTDRMAkzEeuAkKicpJLxXA" name="В БД есть файл с таким-же именем?" incoming="_6B5x4Ak4EeuAkKicpJLxXA" outgoing="_Hqm1gAk0EeuAkKicpJLxXA _qs4dwAk6EeuAkKicpJLxXA" inPartition="_ktxKEAkxEeumE5SpU3P27Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7CrrsAkzEeuAkKicpJLxXA" name="создание файла и занесение его в БД" incoming="_u0M4cAk6EeuAkKicpJLxXA" inPartition="_ktxKEAkxEeumE5SpU3P27Q">
+      <body>// TODO body of OpaqueAction2</body>
+    </node>
+    <node xmi:type="uml:InitialNode" xmi:id="_yYPOoAk0EeuAkKicpJLxXA" name="конец" inPartition="_ktxKEAkxEeumE5SpU3P27Q"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_TM2UMAk1EeuAkKicpJLxXA" name="начало" inPartition="_IHHV4Ak1EeuAkKicpJLxXA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_djD6EAk1EeuAkKicpJLxXA" name="Ввод названия документа" outgoing="_-7AWMAk1EeuAkKicpJLxXA" inPartition="_IHHV4Ak1EeuAkKicpJLxXA">
+      <body>// TODO body of OpaqueAction3</body>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_tEXEwAk1EeuAkKicpJLxXA" name="Открытие документа из базы данных" incoming="_-7AWMAk1EeuAkKicpJLxXA" outgoing="__ZPxYAk1EeuAkKicpJLxXA" inPartition="_IHHV4Ak1EeuAkKicpJLxXA">
+      <body>// TODO body of OpaqueAction4</body>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_vx0JgAk1EeuAkKicpJLxXA" name="запуск среды редактирования документа " incoming="__ZPxYAk1EeuAkKicpJLxXA" outgoing="_zcUIgAk5EeuAkKicpJLxXA" inPartition="_IHHV4Ak1EeuAkKicpJLxXA">
+      <body>// TODO body of OpaqueAction5</body>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_8hgvQAk1EeuAkKicpJLxXA" name="сохранение результата в бд" incoming="_hqsEgAk6EeuAkKicpJLxXA" inPartition="_IHHV4Ak1EeuAkKicpJLxXA">
+      <body>// TODO body of OpaqueAction6</body>
+    </node>
+    <node xmi:type="uml:InitialNode" xmi:id="_BCJo4Ak2EeuAkKicpJLxXA" name="конец" inPartition="_IHHV4Ak1EeuAkKicpJLxXA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_s8-tkAk5EeuAkKicpJLxXA" name="Редактирование завершено?" incoming="_zcUIgAk5EeuAkKicpJLxXA" outgoing="_DS_GQAk6EeuAkKicpJLxXA _FDbJIAk6EeuAkKicpJLxXA" inPartition="_IHHV4Ak1EeuAkKicpJLxXA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7j1CMAk5EeuAkKicpJLxXA" name="Document.IsDone = true" incoming="_DS_GQAk6EeuAkKicpJLxXA" outgoing="_1ASnQAk6EeuAkKicpJLxXA" inPartition="_IHHV4Ak1EeuAkKicpJLxXA">
+      <body>// TODO body of OpaqueAction7</body>
+    </node>
+    <node xmi:type="uml:DataStoreNode" xmi:id="_R-SdEAk6EeuAkKicpJLxXA" name="DataStore1" incoming="_qs4dwAk6EeuAkKicpJLxXA" outgoing="_u0M4cAk6EeuAkKicpJLxXA" inPartition="_ktxKEAkxEeumE5SpU3P27Q"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_b5L_8Ak6EeuAkKicpJLxXA" name="Merge1" incoming="_FDbJIAk6EeuAkKicpJLxXA _1o11AAk6EeuAkKicpJLxXA" outgoing="_hqsEgAk6EeuAkKicpJLxXA" inPartition="_IHHV4Ak1EeuAkKicpJLxXA"/>
+    <node xmi:type="uml:DataStoreNode" xmi:id="_zrdiUAk6EeuAkKicpJLxXA" name="DataStore2" incoming="_1ASnQAk6EeuAkKicpJLxXA" outgoing="_1o11AAk6EeuAkKicpJLxXA" inPartition="_IHHV4Ak1EeuAkKicpJLxXA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_0oq2QAtPEeu-1bzqvS2i1w" name="Actor1">
+    <eAnnotations xmi:id="_0oq2QQtPEeu-1bzqvS2i1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_0oq2QgtPEeu-1bzqvS2i1w" key="Human"/>
+    </eAnnotations>
+    <generalization xmi:id="_522LUAtPEeu-1bzqvS2i1w" general="_1qCMoAtPEeu-1bzqvS2i1w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_1qCMoAtPEeu-1bzqvS2i1w" name="Actor2">
+    <eAnnotations xmi:id="_1qCMoQtPEeu-1bzqvS2i1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_1qCMogtPEeu-1bzqvS2i1w" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_RSIxEAtQEeu-1bzqvS2i1w" name="oh yeah">
+    <eAnnotations xmi:id="_RSIxEQtQEeu-1bzqvS2i1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_RSIxEgtQEeu-1bzqvS2i1w" key="Human"/>
+    </eAnnotations>
+    <generalization xmi:id="_TdnKIAtQEeu-1bzqvS2i1w" general="_SKKlQAtQEeu-1bzqvS2i1w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_SKKlQAtQEeu-1bzqvS2i1w" name="Actor4">
+    <eAnnotations xmi:id="_SKKlQQtQEeu-1bzqvS2i1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_SKKlQgtQEeu-1bzqvS2i1w" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_55UsIA6zEeu2T9-cyZNqIw" name="Документ">
+    <eAnnotations xmi:id="_Hy2AsA60Eeu2T9-cyZNqIw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_Hy2AsQ60Eeu2T9-cyZNqIw" key="Vertical"/>
+    </eAnnotations>
+    <region xmi:id="_6JTo4Q6zEeu2T9-cyZNqIw" name="Region1">
+      <transition xmi:id="_o3SKoA63Eeu2T9-cyZNqIw" source="_m44ZsA62Eeu2T9-cyZNqIw" target="_p5vYEA61Eeu2T9-cyZNqIw">
+        <trigger xmi:id="_IpIgwA66Eeu2T9-cyZNqIw" name="редактировать"/>
+      </transition>
+      <transition xmi:id="_ys1TcA63Eeu2T9-cyZNqIw" source="_QsEEIA60Eeu2T9-cyZNqIw" target="_ikxqwA63Eeu2T9-cyZNqIw"/>
+      <transition xmi:id="_pVQDkA64Eeu2T9-cyZNqIw" source="_Dm6y0A60Eeu2T9-cyZNqIw" target="_tixpYA63Eeu2T9-cyZNqIw"/>
+      <transition xmi:id="_qHxFoA64Eeu2T9-cyZNqIw" source="_Dm6y0A60Eeu2T9-cyZNqIw" target="_mOBM4A64Eeu2T9-cyZNqIw"/>
+      <transition xmi:id="_tR0m0A64Eeu2T9-cyZNqIw" source="_tixpYA63Eeu2T9-cyZNqIw" target="_mOBM4A64Eeu2T9-cyZNqIw">
+        <trigger xmi:id="_i8_PEA66Eeu2T9-cyZNqIw" name="Создать документ"/>
+      </transition>
+      <transition xmi:id="_1EstQA64Eeu2T9-cyZNqIw" source="_mOBM4A64Eeu2T9-cyZNqIw" target="_m44ZsA62Eeu2T9-cyZNqIw"/>
+      <transition xmi:id="__Il0EA64Eeu2T9-cyZNqIw" source="_m44ZsA62Eeu2T9-cyZNqIw" target="_6wH_AA64Eeu2T9-cyZNqIw">
+        <trigger xmi:id="_KWrnsA66Eeu2T9-cyZNqIw" name="просмотреть"/>
+      </transition>
+      <transition xmi:id="_Dk5nUA65Eeu2T9-cyZNqIw" guard="_dxSmQA66Eeu2T9-cyZNqIw" source="_p5vYEA61Eeu2T9-cyZNqIw" target="_ArOEcA65Eeu2T9-cyZNqIw">
+        <ownedRule xmi:id="_dxSmQA66Eeu2T9-cyZNqIw" name="null_transition">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_dxSmQQ66Eeu2T9-cyZNqIw" name="null_guard">
+            <body>последнее</body>
+          </specification>
+        </ownedRule>
+        <trigger xmi:id="_dxSmQg66Eeu2T9-cyZNqIw" name="Сохранение"/>
+      </transition>
+      <transition xmi:id="_ESxZ8A65Eeu2T9-cyZNqIw" source="_6wH_AA64Eeu2T9-cyZNqIw" target="_ArOEcA65Eeu2T9-cyZNqIw"/>
+      <transition xmi:id="_aTYxcA65Eeu2T9-cyZNqIw" source="_XkSG4A65Eeu2T9-cyZNqIw" target="_ikxqwA63Eeu2T9-cyZNqIw"/>
+      <transition xmi:id="_ds8HMA65Eeu2T9-cyZNqIw" source="_ArOEcA65Eeu2T9-cyZNqIw" target="_QsEEIA60Eeu2T9-cyZNqIw">
+        <trigger xmi:id="_x_304A65Eeu2T9-cyZNqIw" name="Оценка менеджера"/>
+      </transition>
+      <transition xmi:id="_eQs7kA65Eeu2T9-cyZNqIw" source="_ArOEcA65Eeu2T9-cyZNqIw" target="_XkSG4A65Eeu2T9-cyZNqIw">
+        <trigger xmi:id="_zY1L4A65Eeu2T9-cyZNqIw" name="Оценка менеджера"/>
+      </transition>
+      <transition xmi:id="_BrxGAA66Eeu2T9-cyZNqIw" guard="_ZHRHIA66Eeu2T9-cyZNqIw" source="_p5vYEA61Eeu2T9-cyZNqIw" target="_p5vYEA61Eeu2T9-cyZNqIw">
+        <ownedRule xmi:id="_ZHRHIA66Eeu2T9-cyZNqIw" name="null_transition">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_ZHRHIQ66Eeu2T9-cyZNqIw" name="null_guard">
+            <body>!последнее</body>
+          </specification>
+        </ownedRule>
+        <trigger xmi:id="_Dm25sA66Eeu2T9-cyZNqIw" name="Сохранение"/>
+      </transition>
+      <transition xmi:id="_n4nbkA66Eeu2T9-cyZNqIw" source="_tixpYA63Eeu2T9-cyZNqIw" target="_ikxqwA63Eeu2T9-cyZNqIw">
+        <trigger xmi:id="_r_ULMA66Eeu2T9-cyZNqIw" name="не создавать документ"/>
+      </transition>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_Dm6y0A60Eeu2T9-cyZNqIw" name="Initial1"/>
+      <subvertex xmi:type="uml:State" xmi:id="_QsEEIA60Eeu2T9-cyZNqIw" name="Документ завершен"/>
+      <subvertex xmi:type="uml:State" xmi:id="_p5vYEA61Eeu2T9-cyZNqIw" name="Документ сейчас редактируется">
+        <entry xmi:type="uml:Activity" xmi:id="_M53S8A62Eeu2T9-cyZNqIw" name="Редактировать файл"/>
+        <exit xmi:type="uml:Activity" xmi:id="_JCyTsA62Eeu2T9-cyZNqIw"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_m44ZsA62Eeu2T9-cyZNqIw" name="Документ открыт">
+        <doActivity xmi:type="uml:Activity" xmi:id="_sxt1UA62Eeu2T9-cyZNqIw" name="Проверить состояние документа"/>
+      </subvertex>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_ikxqwA63Eeu2T9-cyZNqIw" name="Final1"/>
+      <subvertex xmi:type="uml:State" xmi:id="_tixpYA63Eeu2T9-cyZNqIw" name="Документ не существует">
+        <doActivity xmi:type="uml:Activity" xmi:id="_wARmkA63Eeu2T9-cyZNqIw" name="Создать документ"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_mOBM4A64Eeu2T9-cyZNqIw" name="Документ существует"/>
+      <subvertex xmi:type="uml:State" xmi:id="_6wH_AA64Eeu2T9-cyZNqIw" name="Документ просматривается"/>
+      <subvertex xmi:type="uml:State" xmi:id="_ArOEcA65Eeu2T9-cyZNqIw" name="Документ закрыт"/>
+      <subvertex xmi:type="uml:State" xmi:id="_XkSG4A65Eeu2T9-cyZNqIw" name="Документ не завершен"/>
+    </region>
+  </packagedElement>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_2Nao0A64Eeu2T9-cyZNqIw" name="Документ просматривается"/>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_TDcxwBm2EeuNes54rVim3Q" name="NewModel">
+    <ownedAttribute xmi:id="_ARbyUhm4EeuNes54rVim3Q" name="Class2" type="_ARbyUBm4EeuNes54rVim3Q"/>
+    <ownedAttribute xmi:id="_x49mAhm5EeuNes54rVim3Q" name="Actor5" type="_EKvF8P5rEeqn4oujG16c8A"/>
+    <ownedAttribute xmi:id="_3xOZ4hm5EeuNes54rVim3Q" name="Class3" type="_3xOZ4Bm5EeuNes54rVim3Q"/>
+    <ownedAttribute xmi:id="_-ronQhm5EeuNes54rVim3Q" name="Class4" type="_-ronQBm5EeuNes54rVim3Q"/>
+    <ownedAttribute xmi:id="_O-Z1shm7EeuNes54rVim3Q" name="Class5" type="_O-Z1sBm7EeuNes54rVim3Q"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Qy35chm6EeuNes54rVim3Q" name="Operation_1"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tUQ2Uhm6EeuNes54rVim3Q" name="Operation_3"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZceXEhm7EeuNes54rVim3Q" name="Operation_1"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dTGqYhm7EeuNes54rVim3Q" name="Operation_3"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ppBeMRm7EeuNes54rVim3Q" name="Operation_2"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ta3YIhm7EeuNes54rVim3Q" name="Operation_4"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_12kZIhm7EeuNes54rVim3Q" name="Operation_3"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5_qVchm7EeuNes54rVim3Q" name="Operation_4"/>
+    <lifeline xmi:id="_x49mARm5EeuNes54rVim3Q" name="Actor5 : User" represents="_x49mAhm5EeuNes54rVim3Q" coveredBy="_ZceXFBm7EeuNes54rVim3Q _ZceXGBm7EeuNes54rVim3Q _ppBeMxm7EeuNes54rVim3Q _ppBeNxm7EeuNes54rVim3Q _12kZJBm7EeuNes54rVim3Q _12kZKBm7EeuNes54rVim3Q"/>
+    <lifeline xmi:id="_O-Z1sRm7EeuNes54rVim3Q" name="Class5" represents="_O-Z1shm7EeuNes54rVim3Q" coveredBy="_ZceXFRm7EeuNes54rVim3Q _ZceXFxm7EeuNes54rVim3Q _ZceXFhm7EeuNes54rVim3Q _dTGqZBm7EeuNes54rVim3Q _dTGqaBm7EeuNes54rVim3Q _ppBeNBm7EeuNes54rVim3Q _ppBeNhm7EeuNes54rVim3Q _ppBeNRm7EeuNes54rVim3Q _ta3YJBm7EeuNes54rVim3Q _ta3YKBm7EeuNes54rVim3Q _12kZJRm7EeuNes54rVim3Q _12kZJxm7EeuNes54rVim3Q _12kZJhm7EeuNes54rVim3Q _5_qVdBm7EeuNes54rVim3Q _5_qVeBm7EeuNes54rVim3Q"/>
+    <lifeline xmi:id="_3xOZ4Rm5EeuNes54rVim3Q" name="Class3" represents="_3xOZ4hm5EeuNes54rVim3Q" coveredBy="_Qy35dBm6EeuNes54rVim3Q _Qy35eBm6EeuNes54rVim3Q _tUQ2VBm6EeuNes54rVim3Q _tUQ2WBm6EeuNes54rVim3Q _dTGqZRm7EeuNes54rVim3Q _dTGqZxm7EeuNes54rVim3Q _dTGqZhm7EeuNes54rVim3Q _5_qVdRm7EeuNes54rVim3Q _5_qVdxm7EeuNes54rVim3Q _5_qVdhm7EeuNes54rVim3Q"/>
+    <lifeline xmi:id="_-ronQRm5EeuNes54rVim3Q" name="Class4" represents="_-ronQhm5EeuNes54rVim3Q" coveredBy="_Qy35dRm6EeuNes54rVim3Q _Qy35dxm6EeuNes54rVim3Q _Qy35dhm6EeuNes54rVim3Q _tUQ2VRm6EeuNes54rVim3Q _tUQ2Vxm6EeuNes54rVim3Q _tUQ2Vhm6EeuNes54rVim3Q _ta3YJRm7EeuNes54rVim3Q _ta3YJxm7EeuNes54rVim3Q _ta3YJhm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Qy35dBm6EeuNes54rVim3Q" name="Operation_1_sender" covered="_3xOZ4Rm5EeuNes54rVim3Q" message="_Qy35cRm6EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Qy35dRm6EeuNes54rVim3Q" name="Operation_1_receiver" covered="_-ronQRm5EeuNes54rVim3Q" message="_Qy35cRm6EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Qy35dxm6EeuNes54rVim3Q" name="Operation_1" covered="_-ronQRm5EeuNes54rVim3Q" finish="_Qy35dhm6EeuNes54rVim3Q" start="_Qy35dRm6EeuNes54rVim3Q" behavior="_Qy35chm6EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZceXFBm7EeuNes54rVim3Q" name="запрос на редактированеи_sender" covered="_x49mARm5EeuNes54rVim3Q" message="_ZceXERm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZceXFRm7EeuNes54rVim3Q" name="запрос на редактированеи_receiver" covered="_O-Z1sRm7EeuNes54rVim3Q" message="_ZceXERm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_ZceXFxm7EeuNes54rVim3Q" name="Operation_1" covered="_O-Z1sRm7EeuNes54rVim3Q" finish="_ZceXFhm7EeuNes54rVim3Q" start="_ZceXFRm7EeuNes54rVim3Q" behavior="_ZceXEhm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dTGqZBm7EeuNes54rVim3Q" name="Operation_3_sender" covered="_O-Z1sRm7EeuNes54rVim3Q" message="_dTGqYRm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dTGqZRm7EeuNes54rVim3Q" name="Operation_3_receiver" covered="_3xOZ4Rm5EeuNes54rVim3Q" message="_dTGqYRm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_dTGqZxm7EeuNes54rVim3Q" name="Operation_3" covered="_3xOZ4Rm5EeuNes54rVim3Q" finish="_dTGqZhm7EeuNes54rVim3Q" start="_dTGqZRm7EeuNes54rVim3Q" behavior="_dTGqYhm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dTGqZhm7EeuNes54rVim3Q" name="Operation_3_reply_sender" covered="_3xOZ4Rm5EeuNes54rVim3Q" message="_dTGqYxm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dTGqaBm7EeuNes54rVim3Q" name="Operation_3_reply_receiver" covered="_O-Z1sRm7EeuNes54rVim3Q" message="_dTGqYxm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZceXFhm7EeuNes54rVim3Q" name="Operation_1_reply_sender" covered="_O-Z1sRm7EeuNes54rVim3Q" message="_ZceXExm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZceXGBm7EeuNes54rVim3Q" name="Operation_1_reply_receiver" covered="_x49mARm5EeuNes54rVim3Q" message="_ZceXExm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Qy35dhm6EeuNes54rVim3Q" name="Operation_1_reply_sender" covered="_-ronQRm5EeuNes54rVim3Q" message="_Qy35cxm6EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Qy35eBm6EeuNes54rVim3Q" name="Operation_1_reply_receiver" covered="_3xOZ4Rm5EeuNes54rVim3Q" message="_Qy35cxm6EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ppBeMxm7EeuNes54rVim3Q" name="Operation_2_sender" covered="_x49mARm5EeuNes54rVim3Q" message="_ppBeMBm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ppBeNBm7EeuNes54rVim3Q" name="Operation_2_receiver" covered="_O-Z1sRm7EeuNes54rVim3Q" message="_ppBeMBm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_ppBeNhm7EeuNes54rVim3Q" name="Operation_2" covered="_O-Z1sRm7EeuNes54rVim3Q" finish="_ppBeNRm7EeuNes54rVim3Q" start="_ppBeNBm7EeuNes54rVim3Q" behavior="_ppBeMRm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ta3YJBm7EeuNes54rVim3Q" name="Operation_4_sender" covered="_O-Z1sRm7EeuNes54rVim3Q" message="_ta3YIRm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ta3YJRm7EeuNes54rVim3Q" name="Operation_4_receiver" covered="_-ronQRm5EeuNes54rVim3Q" message="_ta3YIRm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_ta3YJxm7EeuNes54rVim3Q" name="Operation_4" covered="_-ronQRm5EeuNes54rVim3Q" finish="_ta3YJhm7EeuNes54rVim3Q" start="_ta3YJRm7EeuNes54rVim3Q" behavior="_ta3YIhm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ta3YJhm7EeuNes54rVim3Q" name="Operation_4_reply_sender" covered="_-ronQRm5EeuNes54rVim3Q" message="_ta3YIxm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ta3YKBm7EeuNes54rVim3Q" name="Operation_4_reply_receiver" covered="_O-Z1sRm7EeuNes54rVim3Q" message="_ta3YIxm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ppBeNRm7EeuNes54rVim3Q" name="Operation_2_reply_sender" covered="_O-Z1sRm7EeuNes54rVim3Q" message="_ppBeMhm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ppBeNxm7EeuNes54rVim3Q" name="Operation_2_reply_receiver" covered="_x49mARm5EeuNes54rVim3Q" message="_ppBeMhm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tUQ2VBm6EeuNes54rVim3Q" name="Operation_3_sender" covered="_3xOZ4Rm5EeuNes54rVim3Q" message="_tUQ2URm6EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tUQ2VRm6EeuNes54rVim3Q" name="Operation_3_receiver" covered="_-ronQRm5EeuNes54rVim3Q" message="_tUQ2URm6EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_tUQ2Vxm6EeuNes54rVim3Q" name="Operation_3" covered="_-ronQRm5EeuNes54rVim3Q" finish="_tUQ2Vhm6EeuNes54rVim3Q" start="_tUQ2VRm6EeuNes54rVim3Q" behavior="_tUQ2Uhm6EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_12kZJBm7EeuNes54rVim3Q" name="Operation_3_sender" covered="_x49mARm5EeuNes54rVim3Q" message="_12kZIRm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_12kZJRm7EeuNes54rVim3Q" name="Operation_3_receiver" covered="_O-Z1sRm7EeuNes54rVim3Q" message="_12kZIRm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_12kZJxm7EeuNes54rVim3Q" name="Operation_3" covered="_O-Z1sRm7EeuNes54rVim3Q" finish="_12kZJhm7EeuNes54rVim3Q" start="_12kZJRm7EeuNes54rVim3Q" behavior="_12kZIhm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5_qVdBm7EeuNes54rVim3Q" name="Operation_4_sender" covered="_O-Z1sRm7EeuNes54rVim3Q" message="_5_qVcRm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5_qVdRm7EeuNes54rVim3Q" name="Operation_4_receiver" covered="_3xOZ4Rm5EeuNes54rVim3Q" message="_5_qVcRm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_5_qVdxm7EeuNes54rVim3Q" name="Operation_4" covered="_3xOZ4Rm5EeuNes54rVim3Q" finish="_5_qVdhm7EeuNes54rVim3Q" start="_5_qVdRm7EeuNes54rVim3Q" behavior="_5_qVchm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5_qVdhm7EeuNes54rVim3Q" name="Operation_4_reply_sender" covered="_3xOZ4Rm5EeuNes54rVim3Q" message="_5_qVcxm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5_qVeBm7EeuNes54rVim3Q" name="Operation_4_reply_receiver" covered="_O-Z1sRm7EeuNes54rVim3Q" message="_5_qVcxm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_12kZJhm7EeuNes54rVim3Q" name="Operation_3_reply_sender" covered="_O-Z1sRm7EeuNes54rVim3Q" message="_12kZIxm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_12kZKBm7EeuNes54rVim3Q" name="Operation_3_reply_receiver" covered="_x49mARm5EeuNes54rVim3Q" message="_12kZIxm7EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tUQ2Vhm6EeuNes54rVim3Q" name="Operation_3_reply_sender" covered="_-ronQRm5EeuNes54rVim3Q" message="_tUQ2Uxm6EeuNes54rVim3Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tUQ2WBm6EeuNes54rVim3Q" name="Operation_3_reply_receiver" covered="_3xOZ4Rm5EeuNes54rVim3Q" message="_tUQ2Uxm6EeuNes54rVim3Q"/>
+    <message xmi:id="_Qy35cRm6EeuNes54rVim3Q" name="Сохранить" receiveEvent="_Qy35dRm6EeuNes54rVim3Q" sendEvent="_Qy35dBm6EeuNes54rVim3Q" signature="_Qy35cBm6EeuNes54rVim3Q"/>
+    <message xmi:id="_Qy35cxm6EeuNes54rVim3Q" name="Успешно сохранено" messageSort="reply" receiveEvent="_Qy35eBm6EeuNes54rVim3Q" sendEvent="_Qy35dhm6EeuNes54rVim3Q"/>
+    <message xmi:id="_tUQ2URm6EeuNes54rVim3Q" name="Сохранение нового документа" receiveEvent="_tUQ2VRm6EeuNes54rVim3Q" sendEvent="_tUQ2VBm6EeuNes54rVim3Q" signature="_tUQ2UBm6EeuNes54rVim3Q"/>
+    <message xmi:id="_tUQ2Uxm6EeuNes54rVim3Q" name="Новый документ сохранен" messageSort="reply" receiveEvent="_tUQ2WBm6EeuNes54rVim3Q" sendEvent="_tUQ2Vhm6EeuNes54rVim3Q"/>
+    <message xmi:id="_ZceXERm7EeuNes54rVim3Q" name="запрос на редактированеи" receiveEvent="_ZceXFRm7EeuNes54rVim3Q" sendEvent="_ZceXFBm7EeuNes54rVim3Q" signature="_ZceXEBm7EeuNes54rVim3Q"/>
+    <message xmi:id="_ZceXExm7EeuNes54rVim3Q" name="вывод на экран" messageSort="reply" receiveEvent="_ZceXGBm7EeuNes54rVim3Q" sendEvent="_ZceXFhm7EeuNes54rVim3Q"/>
+    <message xmi:id="_dTGqYRm7EeuNes54rVim3Q" name="редактирование" receiveEvent="_dTGqZRm7EeuNes54rVim3Q" sendEvent="_dTGqZBm7EeuNes54rVim3Q" signature="_dTGqYBm7EeuNes54rVim3Q"/>
+    <message xmi:id="_dTGqYxm7EeuNes54rVim3Q" name="отображение измененной части" messageSort="reply" receiveEvent="_dTGqaBm7EeuNes54rVim3Q" sendEvent="_dTGqZhm7EeuNes54rVim3Q"/>
+    <message xmi:id="_ppBeMBm7EeuNes54rVim3Q" name="запрос на проверку" receiveEvent="_ppBeNBm7EeuNes54rVim3Q" sendEvent="_ppBeMxm7EeuNes54rVim3Q" signature="_po3GIBm7EeuNes54rVim3Q"/>
+    <message xmi:id="_ppBeMhm7EeuNes54rVim3Q" name="вывод ответа из бд" messageSort="reply" receiveEvent="_ppBeNxm7EeuNes54rVim3Q" sendEvent="_ppBeNRm7EeuNes54rVim3Q"/>
+    <message xmi:id="_ta3YIRm7EeuNes54rVim3Q" name="запрос в базу данных" receiveEvent="_ta3YJRm7EeuNes54rVim3Q" sendEvent="_ta3YJBm7EeuNes54rVim3Q" signature="_ta3YIBm7EeuNes54rVim3Q"/>
+    <message xmi:id="_ta3YIxm7EeuNes54rVim3Q" name="ответ из базы данных" messageSort="reply" receiveEvent="_ta3YKBm7EeuNes54rVim3Q" sendEvent="_ta3YJhm7EeuNes54rVim3Q"/>
+    <message xmi:id="_12kZIRm7EeuNes54rVim3Q" name="запрос на создание" receiveEvent="_12kZJRm7EeuNes54rVim3Q" sendEvent="_12kZJBm7EeuNes54rVim3Q" signature="_12kZIBm7EeuNes54rVim3Q"/>
+    <message xmi:id="_12kZIxm7EeuNes54rVim3Q" name="отображение статуса заявки" messageSort="reply" receiveEvent="_12kZKBm7EeuNes54rVim3Q" sendEvent="_12kZJhm7EeuNes54rVim3Q"/>
+    <message xmi:id="_5_qVcRm7EeuNes54rVim3Q" name="запрос на создание локального документа" receiveEvent="_5_qVdRm7EeuNes54rVim3Q" sendEvent="_5_qVdBm7EeuNes54rVim3Q" signature="_5_qVcBm7EeuNes54rVim3Q"/>
+    <message xmi:id="_5_qVcxm7EeuNes54rVim3Q" name="документ создан во временной памяти" messageSort="reply" receiveEvent="_5_qVeBm7EeuNes54rVim3Q" sendEvent="_5_qVdhm7EeuNes54rVim3Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ARbyUBm4EeuNes54rVim3Q" name="Class2"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_x49mABm5EeuNes54rVim3Q" name="Гыук"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_3xOZ4Bm5EeuNes54rVim3Q" name="Document">
+    <ownedOperation xmi:id="_CZagkBm6EeuNes54rVim3Q" name="Operation_1"/>
+    <ownedOperation xmi:id="_nh0WkBm6EeuNes54rVim3Q" name="Operation_2"/>
+    <ownedOperation xmi:id="_dTGqYBm7EeuNes54rVim3Q" name="Operation_3"/>
+    <ownedOperation xmi:id="_5_qVcBm7EeuNes54rVim3Q" name="Operation_4"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_-ronQBm5EeuNes54rVim3Q" name="Database">
+    <ownedOperation xmi:id="_Qy35cBm6EeuNes54rVim3Q" name="Operation_1"/>
+    <ownedOperation xmi:id="_YpCkcBm6EeuNes54rVim3Q" name="Operation_2"/>
+    <ownedOperation xmi:id="_tUQ2UBm6EeuNes54rVim3Q" name="Operation_3"/>
+    <ownedOperation xmi:id="_ta3YIBm7EeuNes54rVim3Q" name="Operation_4"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_O-Z1sBm7EeuNes54rVim3Q" name="UI">
+    <ownedOperation xmi:id="_ZceXEBm7EeuNes54rVim3Q" name="Operation_1"/>
+    <ownedOperation xmi:id="_po3GIBm7EeuNes54rVim3Q" name="Operation_2"/>
+    <ownedOperation xmi:id="_12kZIBm7EeuNes54rVim3Q" name="Operation_3"/>
+  </packagedElement>
+</uml:Model>
